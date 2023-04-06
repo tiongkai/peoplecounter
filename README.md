@@ -10,11 +10,15 @@ https://colab.research.google.com/github/roboflow-ai/notebooks/blob/main/noteboo
 
 2. Install ByteTrack
 git clone https://github.com/ifzhang/ByteTrack.git
+
 cd /ByteTrack
 
 pip3 install -q -r requirements.txt
+
 python3 setup.py -q develop
+
 pip install -q cython_bbox
+
 pip install -q onemetric
 
 3. Modify Code from "supervision" package - tools - line_counter.py
@@ -29,5 +33,10 @@ Centroid tracking - Under class LineCounter, edit "update" function
 Calculate net flow - edit "annotate" function
  - modify one of the display boxes from line_counter.in_count or line_counter.out_count to line_counter.in_count - line_counter.out_count 
  - > in_text = f"net(in-out): {line_counter.in_count - line_counter.out_count}"
+
+4. trackingstream.py
+ - input stream path
+ - resolution of images
+ - Boundary Line (x: pixels from left, y: pixels from top
 
 
