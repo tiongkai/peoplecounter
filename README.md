@@ -37,6 +37,6 @@ Calculate net flow - edit "annotate" function
 4. trackingstream.py
  - input stream path
  - resolution of images
- - Boundary Line (x: pixels from left, y: pixels from top
+ - Boundary Line (x: pixels from left, y: pixels from top)
 
 
