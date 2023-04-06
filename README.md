@@ -35,7 +35,7 @@ Calculate net flow - edit "annotate" function
  - > in_text = f"net(in-out): {line_counter.in_count - line_counter.out_count}"
 
 4. trackingstream.py
- - input stream path
+ - input stream path to SOURCE_VIDEO_PATH
  - resolution of images
  - Boundary Line (x: pixels from left, y: pixels from top)
 
